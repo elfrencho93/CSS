@@ -6,9 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body {
+            background-color: rgb(102, 102, 9);
+            padding: 10px;
+        }
+        .abuelo {
+            background-color: darkslategrey;
+            height: 500px;
+            padding: 10px;
+            position: relative;
+        }
         .container {
-            max-width: 500px;
+            
+            margin-top: 500px;
             background-color: aqua;
+            margin: 60px;
         }
         .caja {
             width: 100px;
@@ -18,11 +30,17 @@
             padding: 8px;
             border: 2px solid rgb(0, 0, 0);
             margin: 10px;
-            display: inline-block
+            display: inline-block;
+        }
+        #caja5 {
+            background-color: blue;
+            position: absolute;
+            left: 5px;
         }
     </style>
 </head>
 <body>
+    <div class="abuelo">
     <div class="container">
         <div class="caja">1</div>
         <div class="caja">2</div>
