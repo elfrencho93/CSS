@@ -2,74 +2,171 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>Sin título. Escriba su nombre. Ejercicios. Páginas web HTML y hojas de estilo CSS</title>
+  <title>Alex French - Software Libre</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: justify;
+      background-color: lightgrey;
+      margin: 0;
+    }
+    header {
+      position: fixed;
+      background-color: darkgreen;
+      width: 100%;
+      font-size: 200%;
+      color: white;
+      z-index: 2;
+      border-bottom: 2px solid black;
+    }
+    #escritorio{
+      top: 6em;
+      position: absolute;
+      left: 10%;
+      width: 35%;
+      border-left: 2px solid darkgreen;
+      border-right: 2px solid darkgreen;
+    }
+    #internet{
+      top: 6em;
+      position: absolute;
+      right: 10%;
+      width: 35%;
+      border-left: 2px solid darkgreen;
+      border-right: 2px solid darkgreen;
+    }
+    h1{
+      margin: 0;
+      color: white;
+    }
+    main{
+      display: inline-block;
+      margin: 0;
+      z-index: 1;
+    }
+    h2 {
+      background-color: darkgreen;
+      color: white;
+      text-align: center;
+      margin: 0 10px;
+      font-size: 200%;
+    }
+    article {
+      background-color: skyblue;
+      border-radius: 10px;
+      padding-bottom: 5px;
+      margin: 20px 40px;
+      display: block;
+    }
+    article h1 {
+      background-color: blue;
+      font-size: 150%;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      padding-left: 5px;
+    }
+    p {
+      margin: 5px 5px;
+      display: block;
+    }
+  </style>
 </head>
 
 <body>
-  Software libre
+  <header>
+    <h1>Software Libre</h1>
+  </header>
+<main>
 
-  Escritorio
+  <section id="escritorio">
+    <h2>Escritorio</h2>
+    <article>
+      <h1>7-zip</h1>
 
-  Internet
+      <p>7-zip es un compresor/descompresor de archivos que maneja los formatos ZIP, RAR, CAB, GZIP, BZIP2 y TAR, así como un formato propio, 7z.</p>
+    </article>
 
-  Escritorio
+    <article>
+      <h1>Audacity</h1>
 
-  7-zip
+      <p>Audacity es un editor de audio. Permite reproducir, grabar, editar, mezclar, aplicar efectos, etc.</p>
+    </article>
 
-  7-zip es un compresor/descompresor de archivos que maneja los formatos ZIP, RAR, CAB, GZIP, BZIP2 y TAR, así como un formato propio, 7z.
+    <article>
+      <h1>GIMP</h1>
 
-  Audacity
+      <p>GIMP (GNU Image Manipulation Program) es un programa de retoque fotográfico y composición y edición de imágenes.</p>
+    </article>
 
-  Audacity es un editor de audio. Permite reproducir, grabar, editar, mezclar, aplicar efectos, etc.
+    <article>
+      <h1>Inkscape</h1>
 
-  GIMP
+      <p>Inkscape es un editor de gráficos vectoriales que utiliza el formato SVG y que también importa formatos como Postscript, EPS, JPEG, PNG, y TIFF y exporta en PNG y varios formatos vectoriales.</p>
+    </article>
 
-  GIMP (GNU Image Manipulation Program) es un programa de retoque fotográfico y composición y edición de imágenes.
+    <article>
+      <h1>LibreOffice</h1>
 
-  Inkscape
+      <p>LibreOffice es una suite ofimática completa compuesta de procesador de textos, hoja de cálculo, presentaciones, programa de dibujo, base de datos y editor de ecuaciones.</p>
+    </article>
 
-  Inkscape es un editor de gráficos vectoriales que utiliza el formato SVG y que también importa formatos como Postscript, EPS, JPEG, PNG, y TIFF y exporta en PNG y varios formatos vectoriales.
+    <article>
+      <h1>Scribus</h1>
 
-  LibreOffice
+      <p>Scribus es un programa de maquetación de documentos (en inglés, DeskTop Publishing o DTP).</p>
+    </article>
 
-  LibreOffice es una suite ofimática completa compuesta de procesador de textos, hoja de cálculo, presentaciones, programa de dibujo, base de datos y editor de ecuaciones.
+    <article>
+      <h1>ShareX</h1>
 
-  Scribus
+      <p>ShareX es un capturador de pantallas o vídeo capaz de capturar el escritorio completo, ventanas o diferentes figuras geométricas (rectángulos, círculos, etc.) y copiarlo al portapapeles, al disco duro o subirlo a sitios de Internet.</p>
+    </article>
 
-  Scribus es un programa de maquetación de documentos (en inglés, DeskTop Publishing o DTP).
+    <article>
+      <h1>Sumatra PDF</h1>
 
-  ShareX
+      <p>Sumatra PDF es un visualizador de documentos PDF minimalista, que permite ver e imprimir los documentos PDF.</p>
+    </article>
 
-  ShareX es un capturador de pantallas o vídeo capaz de capturar el escritorio completo, ventanas o diferentes figuras geométricas (rectángulos, círculos, etc.) y copiarlo al portapapeles, al disco duro o subirlo a sitios de Internet.
+    <article>
+      <h1>VLC media player</h1>
 
-  Sumatra PDF
+      <p>VideoLAN Media Player es un reproductor multimedia que reproduce numerosos formatos de audio y vídeo, así como DVDs, VCDs y varios protocolos de streaming. También puede utilizarse como servidor unicast o multicast en IPv4 o IPv6.</p>
+    </article>
+  </section>
 
-  Sumatra PDF es un visualizador de documentos PDF minimalista, que permite ver e imprimir los documentos PDF.
+  <section id="internet">
+    <h2>Internet</h2>
+    <article>
+      <h1>FileZilla</h1>
 
-  VLC media player
+      <p>FileZilla es un cliente de FTP.</p>
+    </article>
 
-  VideoLAN Media Player es un reproductor multimedia que reproduce numerosos formatos de audio y vídeo, así como DVDs, VCDs y varios protocolos de streaming. También puede utilizarse como servidor unicast o multicast en IPv4 o IPv6.
+    <article>
+      <h1>Firefox</h1>
 
-  Internet
+      <p>Firefox es un navegador web altamente personalizable y ampliable mediante los cientos de extensiones y temas disponibles.</p>
+    </article>
 
-  FileZilla
+    <article>
+      <h1>HTTrack</h1>
 
-  FileZilla es un cliente de FTP.
+      <p>HTTrack permite descargar sitios webs completos para su consulta offline.</p>
+    </article>
 
-  Firefox
+    <article>
+      <h1>Pidgin</h1>
 
-  Firefox es un navegador web altamente personalizable y ampliable mediante los cientos de extensiones y temas disponibles.
+      <p>Pidgin es un cliente de mensajería instantánea, compatible con las redes ICQ, IRC, Jabber, Gadu-Gadu, Zephyr y otras.</p>
+    </article>
 
-  HTTrack
+    <article>
+      <h1>Thunderbird</h1>
 
-  HTTrack permite descargar sitios webs completos para su consulta offline.
-
-  Pidgin
-
-  Pidgin es un cliente de mensajería instantánea, compatible con las redes ICQ, IRC, Jabber, Gadu-Gadu, Zephyr y otras.
-
-  Thunderbird
-
-  Thunderbird es un cliente de correo de los creadores de Firefox. Incorpora multitud de características avanzadas y, de forma similar a Mozilla Firefox, puede personalizarse mediante temas y ampliar sus posibilidades mediante extensiones.
+      <p>Thunderbird es un cliente de correo de los creadores de Firefox. Incorpora multitud de características avanzadas y, de forma similar a Mozilla Firefox, puede personalizarse mediante temas y ampliar sus posibilidades mediante extensiones.</p>
+    </article>
+  </section>
+</main>
 </body>
 </html>
