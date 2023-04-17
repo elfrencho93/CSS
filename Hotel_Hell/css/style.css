@@ -1,0 +1,72 @@
+/* Reset Minimo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    line-height: 1.7em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+a {
+    color:#333;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+/* UTILIDADES */
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+/* NAVBAR */
+#top-menu {
+    background-color: crimson;
+    color: yellow;
+}
+
+#top-menu a {
+    color: yellow;
+}
+
+#top-menu h1 {
+    float: left;
+    padding: 20px;
+}
+
+#top-menu ul {
+    list-style: none;
+    float: right;
+}
+
+#top-menu ul li {
+    float: left;
+}
+
+#top-menu ul li a {
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+
+#top-menu ul li a:hover {
+    background-color: orange;
+    color:black;
+}
+
+/* SHOWCASE */
+#showcase {
+    height: 600px;
+    background: url('../imagenes_random_hotel/showcase.jpg') no-repeat center/cover;
+}
