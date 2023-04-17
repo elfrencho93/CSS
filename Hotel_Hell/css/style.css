@@ -30,6 +30,23 @@ p {
     overflow: auto;
     padding: 0 20px;
 }
+.text-primary {
+    color: crimson;
+}
+.btn {
+    display: inline-block;
+    background-color: crimson;
+    color: yellow;
+    padding: 12px 20px;
+    border-radius: 4px;
+    margin-top: 10px;
+
+}
+
+.btn:hover {
+    background-color: orange;
+    color: black;
+}
 /* NAVBAR */
 #top-menu {
     background-color: crimson;
@@ -70,3 +87,18 @@ p {
     height: 600px;
     background: url('../imagenes_random_hotel/showcase.jpg') no-repeat center/cover;
 }
+
+#showcase .showcase-content {
+    color: yellow;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h2 {
+    font-size: 2em;
+}
+
+#showcase .showcase-content p {
+    font-size: 1.5em;
+}
+
