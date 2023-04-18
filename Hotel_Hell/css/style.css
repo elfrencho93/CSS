@@ -42,9 +42,37 @@ p {
     margin-top: 10px;
 
 }
-
+/* Colores Para Reutilizar */
+.bg-dark {
+    background-color: crimson;
+    color: yellow;
+}
+.bg-light {
+    background-color: yellow;
+    color: crimson;
+}
+.bg_primary {
+    background-color: black;
+    color: crimson;
+}
 .btn:hover {
     background-color: orange;
+    color: black;
+}
+.btn-info {
+    display: inline-block;
+    background-color: orange;
+    color: black;
+    padding: 12px 20px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.btn-info:hover {
+    background-color: yellow;
+    color: crimson;
+}
+.text-primary-info {
     color: black;
 }
 /* NAVBAR */
@@ -84,14 +112,14 @@ p {
 
 /* SHOWCASE */
 #showcase {
-    height: 600px;
+    height: 400px;
     background: url('../imagenes_random_hotel/showcase.jpg') no-repeat center/cover;
 }
 
 #showcase .showcase-content {
     color: yellow;
     text-align: center;
-    padding-top: 170px;
+    padding-top: 100px;
 }
 
 #showcase .showcase-content h2 {
@@ -102,3 +130,74 @@ p {
     font-size: 1.5em;
 }
 
+/* INFO */
+#info {
+    height: 320px;
+    overflow: auto;
+}
+
+#info .info-img {
+    background: url('../imagenes_random_hotel/photo-1.jpg') no-repeat;
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+#info .info-content {
+    text-align: center;
+    float: right;
+    width: 50%;
+    min-height: 100%;
+    padding: 50px 30px;
+}
+
+#info .info-content h2 {
+    font-size: 1.5em;
+}
+
+#info .info-content p {
+    font-size: 1em;
+}
+
+/* FEATURES */
+.box {
+    width:33.3%;
+    float: left;
+    padding: 50px;
+    text-align: center;
+}
+.box i {
+    font-size: 3em;
+    margin-bottom: 6px;
+}
+
+
+/* FOOTER */
+#main-footer {
+    text-align: center;
+    padding: 20px;
+}
+.crl {
+    clear: both;
+}
+
+/* ABOUT */
+#about-info {
+    height: 200px;
+}
+#about-info .info-right {
+    float: right;
+    width: 50%
+}
+
+#about-info .info-left {
+    text-align: justify;
+    float: left;
+    width: 50%;
+}
+    #about-info .info-left h2 {
+    font-size: 2em;
+}
+#about-info .info-left p {
+    font-size: 1em;
+}
