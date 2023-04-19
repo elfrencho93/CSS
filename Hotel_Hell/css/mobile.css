@@ -1,0 +1,20 @@
+/* NAVBAR */
+#top-menu {
+    background-color: crimson;
+    color: yellow;
+}
+
+/* HOME INFO */
+#info .info-img {
+    display: none;
+}
+#info .info-content {
+    float: none;
+    width: 100%;
+}
+
+/* ABOUT */
+.box {
+    float: none;
+    width: 100%;
+}

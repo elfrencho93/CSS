@@ -227,7 +227,7 @@ p {
 #testimonial {
     height: 500px;
     background: url('../imagenes_random_hotel/test-bg.jpg') no-repeat center/cover;
-    padding: 100px;
+    padding-top: 100px;
 }
 #testimonial h2 {
     color: yellow;
