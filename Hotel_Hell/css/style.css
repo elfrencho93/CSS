@@ -216,30 +216,33 @@ p {
     width: 50%;
 }
 #about-info .info-left h2 {
-font-size: 2em;
-}
-#about-info .info-left p {
-    font-size: 1em;
-}
+    font-size: 2em;
+    }
+    #about-info .info-left p {
+        font-size: 1em;
+    }
 
 /* TESTIMONIAL */
 #testimonial {
     height: 500px;
     background: url('../imagenes_random_hotel/test-bg.jpg') no-repeat center/cover;
-    text-align: center;
+    padding: 100px;
 }
 #testimonial h2 {
     color: yellow;
+    text-align: center;
 }
 #testimonial .opinion {
     padding: 20px;
     margin-bottom: 40px;
     border-radius: 6px;
     opacity: 0,9;
+    overflow: auto;
 }
 #testimonial .opinion img {
     width: 100px;
     float: left;
     border-radius: 50%;
     display: block;
+    margin-right: 10px;
 }
