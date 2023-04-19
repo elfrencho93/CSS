@@ -206,6 +206,7 @@ p {
 }
 
 #about-info .info-right img {
+    display: block;
     width: 70%;
     border-radius: 50%;
 }
