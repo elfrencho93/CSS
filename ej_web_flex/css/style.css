@@ -1,0 +1,127 @@
+/* MINIMUM RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#mainheader {
+    height: 600px;
+    color: white;
+}
+#mainheader ul li {
+    float: left;
+    padding: 10px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.nav {
+    list-style: none;
+    float: right;
+}
+
+.bk-main {
+    background: url('../img/kermit.png') no-repeat center/cover;
+}
+
+/* UTILITIES */
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+.logo {
+    float: left;
+    font-size: 2rem;
+}
+.btn {
+    display: inline-block;
+    background-color: lightskyblue;
+    padding: 12px 20px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.btn-dark:hover {
+    display: inline-block;
+    background-color: black;
+    color: lightskyblue;
+    padding: 12px 20px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.flex-3 {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-3-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+/* RECYCLED COLORS */
+.txt-large {
+    font-size: large;
+}
+.txt-light {
+    color: lightskyblue;
+}
+.bk-color {
+    background-color: lightskyblue;
+    padding: 25px;
+}
+
+/* RECYCLED PADDING */
+.p-1 {
+    padding: 100px;
+}
+.p-2 {
+    padding: 25px;
+}
+
+/* NAVBAR */
+.navbar {
+    padding: 10px;
+}
+
+/* SHOWCASE */
+#showcase {
+    text-align: center;
+}
+.display-1 {
+    font-size: 3rem;
+}
+
+/* PROJECTS */
+#projects img {
+    border-radius: 12%;
+}
+
+/* BENEFITS */
+#benefits i {
+    font-size: 5rem;
+    padding: 10px;
+}
+#benefits p {
+    text-align: center;
+}
+.benefits-secondary {
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* CONTACT */
+#contact .flex-3-box {
+    padding: 20px;
+}
+
+/* FOOTER */
+#mainfooter {
+    text-align: center;
+}

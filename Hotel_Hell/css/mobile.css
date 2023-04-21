@@ -13,8 +13,30 @@
     width: 100%;
 }
 
-/* ABOUT */
+/* FEATURES */
 .box {
     float: none;
     width: 100%;
+}
+
+/* ABOUT */
+#about-info .info-right img {
+    text-align: center;
+    position: relative;
+    right: 50px
+}
+#about-info .info-left {
+    text-align: center;
+    width: auto;
+}
+
+/* TESTIMONIAL */
+#testimonial {
+    height: 900px;
+    background: url('../imagenes_random_hotel/test-bg.jpg') no-repeat center/cover;
+    padding-top: 100px;
+}
+
+#testimonial .opinion {
+    padding-top: 0;
 }

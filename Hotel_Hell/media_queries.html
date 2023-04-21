@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    <title>Media Queries</title>
+    <style>
+        body {
+            font-family: cursive;
+            background-color: gray;
+            color: aliceblue;
+            text-align: center;
+            padding-top: 100px;
+        }
+        h1 {
+            display: none;
+        }
+        /* Mobil Vertical*/
+        @media only screen and (max-width: 500px){
+            body {
+            background-color: rgb(16, 63, 104);
+            }
+            #movil-p h1{
+                display: block;
+            }
+        }
+        /* Tablet */
+        @media (min-width:501px) and (max-width: 768px){
+            body {
+            background-color: rgb(104, 16, 92);
+            }
+            #tablet h1{
+                display: block;
+            }
+        }
+        /* Normal */
+        @media (min-width: 1201px){
+            body {
+            background-color: rgb(209, 212, 19);
+            }
+            #normal h1{
+                display: block;
+            }
+        }
+        /*Pantalla Grande */
+        @media (min-width: 769px) and (max-width: 1200px){
+            body {
+            background-color: rgb(212, 15, 15);
+            }
+            #widescreen h1{
+                display: block;
+            }
+        }
+        /* Mobil Horizontal */
+        @media (max-height: 500px){
+            body {
+            background-color: rgb(84, 15, 212);
+            }
+            #mobil-l h1{
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="widescreen">
+        <h1>Widescreen</h1>
+    </div>
+    <div id="normal">
+        <h1>Normal</h1>
+    </div>
+    <div id="tablet">
+        <h1>Tablet</h1>
+    </div>
+    <div id="movil-p">
+        <h1>Smartphone Portrait</h1>
+    </div>
+    <div id="movil-l">
+        <h1>Smartphone Landscape</h1>
+    </div>
+</body>
+</html>
