@@ -3,6 +3,9 @@
     background-color: gray;
     background-image: none;
 }
+#mainheader {
+    height: 800px;
+}
 
 .logo {
     float: none;
@@ -30,6 +33,15 @@
  #projects {
     text-align: center;
  }
+
+ #projects img {
+    padding: 20px;
+ }
  .flex-3 {
     flex-direction: column;
+}
+
+/* BENEFITS */
+#benefits i {
+    padding: 20px;
 }

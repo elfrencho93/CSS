@@ -1,43 +1,63 @@
 /* MINIMUM RESET*/
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+/* MAIN STYLE */
+html, body {
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 16px;
+    line-height: 1.5;
 }
-#mainheader {
-    height: 600px;
-    color: white;
+h1 {
+    font-size: 2.5rem;
 }
-#mainheader ul li {
-    float: left;
-    padding: 10px;
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+ul {
+    list-style: none;
+}
+img {
+    max-width: 100%;
+}
+p {
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.7;
 }
 a {
     color: white;
     text-decoration: none;
 }
-.nav {
-    list-style: none;
-    float: right;
-}
-
-.bk-main {
-    background: url('../img/kermit.png') no-repeat center/cover;
-}
 
 /* UTILITIES */
 .container {
-    margin: auto;
+    margin: 0 auto;
     max-width: 1100px;
     overflow: auto;
     padding: 0 20px;
 }
-.logo {
-    float: left;
-    font-size: 2rem;
+.txt-large {
+    font-size: 1.2rem;
+}
+.txt-light {
+    color: lightskyblue;
+}
+.display-1 {
+    font-size: 3rem;
+    font-weight: 900;
 }
 .btn {
     display: inline-block;
@@ -45,14 +65,18 @@ a {
     padding: 12px 20px;
     border-radius: 4px;
     margin-top: 10px;
+    letter-spacing: 5px;
+    font-weight: bold;
 }
 .btn-dark:hover {
-    display: inline-block;
     background-color: black;
     color: lightskyblue;
-    padding: 12px 20px;
-    border-radius: 4px;
-    margin-top: 10px;
+}
+.bk-main {
+    background: url('../img/kermit.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .flex-3 {
     display: flex;
@@ -64,17 +88,33 @@ a {
     flex-wrap: wrap;
     flex-direction: column;
 }
-
-/* RECYCLED COLORS */
-.txt-large {
-    font-size: large;
-}
-.txt-light {
-    color: lightskyblue;
-}
 .bk-color {
     background-color: lightskyblue;
     padding: 25px;
+}
+
+/* HEADER */
+#mainheader {
+    height: 600px;
+    color: white;
+}
+#mainheader ul li {
+    float: left;
+    padding: 10px;
+}
+.nav {
+    float: right;
+}
+
+/* NAVBAR */
+.navbar {
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.logo {
+    float: left;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 /* RECYCLED PADDING */
@@ -85,17 +125,12 @@ a {
     padding: 25px;
 }
 
-/* NAVBAR */
-.navbar {
-    padding: 10px;
-}
-
 /* SHOWCASE */
 #showcase {
     text-align: center;
 }
-.display-1 {
-    font-size: 3rem;
+#showcase a {
+    margin-top: 20px;
 }
 
 /* PROJECTS */
@@ -119,6 +154,7 @@ a {
 /* CONTACT */
 #contact .flex-3-box {
     padding: 20px;
+    text-align: center;
 }
 
 /* FOOTER */
