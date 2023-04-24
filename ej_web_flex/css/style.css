@@ -62,6 +62,7 @@ a {
 .btn {
     display: inline-block;
     background-color: lightskyblue;
+    color: black;
     padding: 12px 20px;
     border-radius: 4px;
     margin-top: 10px;
