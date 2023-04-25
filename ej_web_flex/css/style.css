@@ -58,6 +58,7 @@ a {
 .display-1 {
     font-size: 3rem;
     font-weight: 900;
+    text-shadow: 4px 4px 8px black;
 }
 .btn {
     display: inline-block;
@@ -103,6 +104,9 @@ a {
     float: left;
     padding: 10px;
 }
+#mainheader .nav a {
+    text-shadow: 2px 2px 4px lightskyblue;
+}
 .nav {
     float: right;
 }
@@ -116,6 +120,7 @@ a {
     float: left;
     font-size: 2rem;
     font-weight: bold;
+    text-shadow: 2px 2px 4px lightskyblue;
 }
 
 /* RECYCLED PADDING */
@@ -132,6 +137,9 @@ a {
 }
 #showcase a {
     margin-top: 20px;
+}
+#showcase p {
+    text-shadow: 4px 4px 8px black;
 }
 
 /* PROJECTS */
