@@ -10,9 +10,7 @@
 .nav {
     float: none;
 }
-.bk-main:before {
-    height: 865px;
-}
+
 /* SHOWCASE */
 .display-1 {
     font-size: 2rem;
