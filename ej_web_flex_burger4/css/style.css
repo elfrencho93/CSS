@@ -7,6 +7,9 @@
 }
 
 /* HIDE MENU */
+.toggler {
+    display: none;
+}
 
 /* MAIN STYLE */
 html, body {
