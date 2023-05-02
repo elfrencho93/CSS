@@ -10,6 +10,9 @@
 .toggler {
     display: none;
 }
+.menu-wrap {
+    display: none;
+}
 
 /* MAIN STYLE */
 html, body {
